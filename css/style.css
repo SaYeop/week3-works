@@ -1,0 +1,23 @@
+.bigbox{width: 80%; height: 80%; background-color: red;
+		border-left: 5px solid black;  border-bottom: 5px solid black;
+		position: absolute; top: 0%; right: 0%;}
+
+
+.sidebox{width: calc(100% - 80%); height: 40%; background-color: white;
+		border-right: 5px solid black;  border-bottom: 5px solid black;
+		position: absolute; top: 0%; left: 0%;}
+
+.boxblue{width: 20%; height: calc(100% - 80%); background-color: blue;
+		border-top: 5px solid black; border-right: 5px solid black;
+		position: absolute; bottom: 0%; left: 0%;}
+
+
+.longbox{width: calc(100% - 40%); height: calc(100% - 80%); background-color: white;
+		border-top: 5px solid black; border-left: 5px solid black; border-right: 5px solid black;
+		position: absolute; bottom: 0%; left: 20%;}
+
+.smallbox{width: calc(100% - 80%); height: calc(100% - 90%); background-color: yellow;
+		border-top: 5px solid black; border-left: 5px solid black;
+		position: absolute; bottom: 0%; left: 80%;}
+
+
